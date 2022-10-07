@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: white;
+    color: white;
+}
+
+
+/* Navegacion */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    position: fixed;
+}
+
+.navscroll{
+    background-color: rgb(18, 18, 18);
+    transition: 0.5s;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.logo_text h1 {
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.img_logo{
+    margin-left: 40px;
+    width: 70px;
+}
+
+.contenedor_img{
+    display: flex;
+    align-items: flex-start;
+}
+
+.contenedor{
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.list{
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.list li{
+    margin-right: 20px;
+}
+
+.list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    
+    
+}
+
+.list li a:hover{
+    content: "";
+    background-color: #4e4e4eb0;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: 0.4s;
+}
+
+
+
+/* Presentacion */
+
+#inicio{
+    background-image: url(./img/dark_papercut_background_design_generated.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 110px;
+}
+
+.contenedor_desliza{
+    margin-top: 50px;
+}
+
+.nombre{
+    font-size: 7rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 1000;
+
+}
+
+.nombre_2{
+    color: #c6c6c6;
+    font-size: 7rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.parrafo{
+    margin-top: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(202, 202, 202);
+
+}
+
+
+.contenedor_flecha{
+    margin-top: 50px;
+}
+
+/* Sobre Mi */
+
+#_sobremi{
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor_foto{
+    margin: 80px;
+}
+
+.fotto{
+    width: 280px;
+}
+
+.contenedor_info{
+    margin-top: 110px;
+}
+
+.contenedor_info h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 4.5rem;
+
+}
+
+.contenedor_info h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-top: 5px;
+
+}
+
+
+.contenedor_info p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #b7b7b7;
+
+}
+
+.contenedor_info spam{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #c6c6c6;
+    
+}
+
+.contenedor_iconsrs{
+    margin-top: 25px;
+    display: flex;
+}
+
+.iconsrs{
+    margin-left: 20px ;
+    width: 50px;
+}
+
+/* Habilidades */
+
+#_habilidades{
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.titulo_habilidades{
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.titulo_habilidades h1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 4.5rem;
+}
+
+.contenedor_hijohab{
+    display: flex;
+    margin-top: 60px;
+    padding-bottom: 100px;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.contenedor_hijohab h1{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+.contenedor_hijohab div{
+    width: 17.5rem;
+    justify-content: center;
+}
+
+.iconhab{
+    display: flex;
+    flex-direction: column;
+    background-color: #181818;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.iconhab p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #b7b7b7;
+    margin-top: 10px;
+   
+}
+
+.iconhab:hover{
+    background-color: #4e4e4eb0;
+    width: 18.0rem;
+    font-size: 1.1rem;
+    transition: 0.2s;
+}
+
+.itemhab{
+    display: flex;
+    align-items: center;
+}
+
+/* Metas */
+
+#_metas{
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titulo_metas{
+    margin-top: 80px;
+}
+
+.titulo_metas h1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 4.5rem;
+}
+
+.contenedor_gic{
+    display: flex;
+    flex-direction: column;
+}
+
+.end{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: end;
+    border-bottom: #c6c6c6 solid 3px;
+    padding: 30px;
+    
+}
+.start{
+    border-bottom: #c6c6c6 solid 3px;
+    text-align: start;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+}
+
+.start h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8rem;
+}
+
+.end h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8rem;
+}
+
+
+.start p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #b7b7b7;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.end p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #b7b7b7;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    
+}
+
+
+/* Contacto */
+
+#_contacto{
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.contactame_text{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.0rem;
+
+}
+
+.contenedor_text_contact{
+    margin-top: 10px;
+}
+
+.lista_datos ul li{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    margin: 5px;
+}
+
+
+.lista_datos ul li img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.containt_loggo{
+    background-color:rgb(15, 15, 15) ;
+    display: flex;
+    justify-content: center;
+}
+
+.content_logo{
+    margin-top: 10px;
+}
+
+.img_loggo{
+    width: 50px;
+
+}
+
+.logito_text{
+    margin-top: 10px;
+    padding: 13px;
+}
+
+.logito_text h1{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+}
